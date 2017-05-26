@@ -5,7 +5,8 @@ var cors = require('cors');
 
 
 var server = express();
-server.set('port', 3000);
+//server.set('port', 3000);
+server.set('port',process.env.PORT || process.env.VCAP_APP_PORT || 3000)
 server.use(express.static(__dirname + '/app'));
 
 
