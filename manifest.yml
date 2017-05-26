@@ -1,4 +1,5 @@
+---
 applications:
-- name: node-hello-world
-  memory: 128M
-  buildpack: sdk-for-nodejs
+- name:    LSSNodeProxy2
+  host:    LSSNodeProxy2
+  memory:  128M

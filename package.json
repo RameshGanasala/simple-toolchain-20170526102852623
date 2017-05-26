@@ -1,16 +1,27 @@
 {
-	"name": "HelloWorldNodeApp",
-	"version": "0.0.1",
-    "private": true,
-	"scripts": {
-		"start": "node app.js"
+  "name": "bluemix-hello-node",
+  "version": "0.0.0",
+  "dependencies": {
+    "cf-deployment-tracker-client": "*",
+    "commander": "^2.6.0",
+    "express": "^4.14.1",
+    "http-post": "^0.1.1",
+    "http-proxy": "^1.8.1",
+    "body-parser": "^1.16.1",
+    "cfenv": "^1.0.x",
+    "cloudant": "^1.7.1",
+    "dotenv": "^4.0.0",
+    "request": "",
+	"cors":""
+
 	},
-	"dependencies": {
-		"express": "4.13.x",
-		"cfenv": "1.0.x"
-	},
-	"repository": {},
-	"engines": {
-		"node": "4.2.x"
-	} 
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IBM-Bluemix/bluemix-hello-node.git"
+  }
 }
+
