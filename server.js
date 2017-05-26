@@ -5,7 +5,7 @@ var cors = require('cors');
 
 
 var server = express();
-server.set('port', 9229);
+server.set('port', 3000);
 server.use(express.static(__dirname + '/app'));
 
 
